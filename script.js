@@ -75,7 +75,7 @@ btnHoldElement.addEventListener('click', function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
     //2. Checa se a pontuação é >= 100
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       // Fim do jogo
       playing = false;
       diceElement.classList.add('hidden');
